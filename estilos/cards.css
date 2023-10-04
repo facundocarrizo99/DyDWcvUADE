@@ -113,3 +113,112 @@ body {
     text-align: left;
     position: relative;
 }
+
+@media only screen and (max-width: 450px) {
+    .centerCards {
+        display: inline-block;
+        
+    }
+    
+    .card {
+        background: linear-gradient(49deg, #2d4de0 0, #9f71f0 30%, #fc6277 58%, #f8ef6f 95%);
+        
+        margin: 20px;
+        width: 360px;
+        height: 330px;
+        
+        border-radius: 10px;
+    
+        position: relative;
+    }
+    
+    .card-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    
+        padding: 50px 40px;
+    
+        background-color: #222222;
+        color: #ffffff;
+    
+        border-radius: 12px;
+    
+        transition: 0.2s ease;
+    }
+    
+    .card:hover .card-container {
+        border-radius: 10px;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+    }
+    
+    .cardIndex {
+        background: linear-gradient(49deg, #2d4de0 0, #9f71f0 30%, #fc6277 58%, #f8ef6f 95%);
+        display: inline-flex;
+        margin: 10px;
+        width: 380px;
+        height: 550px;
+        
+        border-radius: 12px;
+    
+        position: relative;
+    }
+    
+    .cardIndex-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    
+        padding: 50px 40px;
+    
+        background-color: #222222;
+        color: #ffffff;
+    
+        border-radius: 12px;
+    
+        transition: 0.2s ease;
+    }
+    
+    .cardIndex:hover .cardIndex-container {
+        border-radius: 10px;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+    }
+    
+    .nameIndex {
+        text-align: center;
+    }
+    
+    .homeImage {
+        width: 210px;
+        height: auto;
+        border-radius: 10px;
+        
+    }
+    
+    .centerCardsIndex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .parteCard {
+        margin: 20px;
+        width: 210px;
+        height: 350px;
+        
+        border-radius: 10px;
+        text-align: left;
+        position: relative;
+    }
+}
