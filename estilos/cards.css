@@ -114,7 +114,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1080px) {
     .centerCards {
         display: inline-block;
         
